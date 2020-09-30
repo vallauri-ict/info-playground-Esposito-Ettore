@@ -30,6 +30,8 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.Passata = new System.Windows.Forms.TextBox();
+            this.Passa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -52,16 +54,36 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // Passata
+            // 
+            this.Passata.Location = new System.Drawing.Point(13, 42);
+            this.Passata.Name = "Passata";
+            this.Passata.Size = new System.Drawing.Size(100, 20);
+            this.Passata.TabIndex = 2;
+            // 
+            // Passa
+            // 
+            this.Passa.Location = new System.Drawing.Point(119, 40);
+            this.Passa.Name = "Passa";
+            this.Passa.Size = new System.Drawing.Size(75, 23);
+            this.Passa.TabIndex = 3;
+            this.Passa.Text = "Passa txt a txt2";
+            this.Passa.UseVisualStyleBackColor = true;
+            this.Passa.Click += new System.EventHandler(this.Passa_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Passa);
+            this.Controls.Add(this.Passata);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,6 +91,8 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox Passata;
+        private System.Windows.Forms.Button Passa;
     }
 }
 

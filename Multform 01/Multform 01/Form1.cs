@@ -20,7 +20,12 @@ namespace Multform_01
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 Form2 = new Form2();
+            Form2.Text = "Form 2";
             Form2.Show();
+
+            Form2 Form2n = new Form2(5);
+            Form2n.Text = "Form 2 con n";
+            Form2n.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -28,6 +33,13 @@ namespace Multform_01
             Form Formb2 = new Form();
             Formb2.Text = "Ciao";
             Formb2.Show();
+        }
+
+        private void Passa_Click(object sender, EventArgs e)
+        {
+            Form2 Form2 = new Form2(Passata);
+            Form2.Text = "Form 2 con textbox";
+            Form2.Show();
         }
     }
 }
