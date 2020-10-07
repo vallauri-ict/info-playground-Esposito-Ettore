@@ -41,5 +41,22 @@ namespace Multform_01
             Form2.Text = "Form 2 con textbox";
             Form2.Show();
         }
+
+        private void ApriFormModale_Click(object sender, EventArgs e)
+        {
+            FormModale fm = new FormModale();
+            if (fm.ShowDialog() == DialogResult.OK)
+            {
+                txtNomeOut.Text = fm.Nome;
+                txtEtaOut.Text = fm.Età;
+                MessageBox.Show("Premuto ok");
+            }
+            else
+            {
+                txtNomeOut.Text = "";
+                txtEtaOut.Text = "";
+                MessageBox.Show("Premuto !ok");
+            }
+        }
     }
 }
