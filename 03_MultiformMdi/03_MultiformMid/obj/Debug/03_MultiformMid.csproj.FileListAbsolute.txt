@@ -1,0 +1,11 @@
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\bin\Debug\03_MultiformMid.exe.config
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\bin\Debug\03_MultiformMid.exe
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\bin\Debug\03_MultiformMid.pdb
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.csprojAssemblyReference.cache
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\_03_MultiformMid.Form1.resources
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\_03_MultiformMid.Form2.resources
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\_03_MultiformMid.FormApp.resources
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\_03_MultiformMid.Properties.Resources.resources
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.csproj.GenerateResource.cache
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.exe
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.pdb
