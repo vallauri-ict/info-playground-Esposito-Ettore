@@ -70,21 +70,25 @@
             // 
             // btmOk
             // 
+            this.btmOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btmOk.Location = new System.Drawing.Point(12, 68);
             this.btmOk.Name = "btmOk";
             this.btmOk.Size = new System.Drawing.Size(75, 23);
             this.btmOk.TabIndex = 10;
             this.btmOk.Text = "Ok";
             this.btmOk.UseVisualStyleBackColor = true;
+            this.btmOk.Click += new System.EventHandler(this.btmOk_Click);
             // 
             // btmCanc
             // 
+            this.btmCanc.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btmCanc.Location = new System.Drawing.Point(93, 68);
             this.btmCanc.Name = "btmCanc";
             this.btmCanc.Size = new System.Drawing.Size(75, 23);
             this.btmCanc.TabIndex = 11;
             this.btmCanc.Text = "!Ok";
             this.btmCanc.UseVisualStyleBackColor = true;
+            this.btmCanc.Click += new System.EventHandler(this.btmCanc_Click);
             // 
             // FormModale
             // 

@@ -89,6 +89,7 @@
             this.apriFormModaleToolStripMenuItem.Name = "apriFormModaleToolStripMenuItem";
             this.apriFormModaleToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.apriFormModaleToolStripMenuItem.Text = "Apri form modale";
+            this.apriFormModaleToolStripMenuItem.Click += new System.EventHandler(this.apriFormModaleToolStripMenuItem_Click);
             // 
             // esciToolStripMenuItem
             // 

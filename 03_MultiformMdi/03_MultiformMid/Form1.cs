@@ -35,9 +35,17 @@ namespace _03_MultiformMid
 
         private void apriForm2ConTextboxToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormApp fa = new FormApp();
+            FormApp fa = new FormApp("TextBox");
             fa.MdiParent = this;
             fa.Text = "Form 1"; 
+            fa.Show();
+        }
+
+        private void apriFormModaleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormApp fa = new FormApp("Mod");
+            fa.MdiParent = this;
+            fa.Text = "Form 1";
             fa.Show();
         }
     }

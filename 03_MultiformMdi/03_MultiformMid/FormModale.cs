@@ -16,5 +16,20 @@ namespace _03_MultiformMid
         {
             InitializeComponent();
         }
+
+        public string Nome = "";
+        public string Eta = "";
+
+        private void btmOk_Click(object sender, EventArgs e)
+        {
+            Nome = txtNome.Text;
+            Eta = txtEta.Text;
+        }
+
+        private void btmCanc_Click(object sender, EventArgs e)
+        {
+            Nome = "";
+            Eta = "";
+        }
     }
 }
