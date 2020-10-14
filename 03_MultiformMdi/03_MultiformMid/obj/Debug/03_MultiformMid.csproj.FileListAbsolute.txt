@@ -23,3 +23,5 @@ S:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_Multif
 S:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.csproj.CoreCompileInputs.cache
 S:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.exe
 S:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\03_MultiformMid.pdb
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\_03_MultiformMid.FormFiglia.resources
+D:\informatica\4 superiore\informatica\info playground\03_MultiformMdi\03_MultiformMid\obj\Debug\_03_MultiformMid.FormModale.resources

@@ -45,11 +45,10 @@ namespace _03_MultiformMid
 
         private void btmformFiglia_Click(object sender, EventArgs e)
         {
-            FormFiglia ff = new FormFiglia();
-            ff.MdiParent = this.MdiParent;
+            FormFiglia ff = new FormFiglia(); 
             ff.Text = "gha gha ghu gha";
-            ff.Show();
             this.AddOwnedForm(ff);
+            ff.Show();
         }
     }
 }
