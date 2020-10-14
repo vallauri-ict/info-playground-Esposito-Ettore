@@ -1,0 +1,12 @@
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\bin\Debug\04_Preparazione.exe.config
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\bin\Debug\04_Preparazione.exe
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\bin\Debug\04_Preparazione.pdb
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\04_Preparazione.csprojAssemblyReference.cache
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\_04_Preparazione.Form1.resources
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\_04_Preparazione.FormUscita.resources
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\_04_Preparazione.Properties.Resources.resources
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\04_Preparazione.csproj.GenerateResource.cache
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\04_Preparazione.exe
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\04_Preparazione.pdb
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\_04_Preparazione.FormSecondaria.resources
+D:\informatica\4 superiore\informatica\info playground\04_Preparazione\04_Preparazione\obj\Debug\_04_Preparazione.FormFiglia.resources
