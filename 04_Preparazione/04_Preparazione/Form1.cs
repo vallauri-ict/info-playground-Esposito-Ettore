@@ -17,7 +17,7 @@ namespace _04_Preparazione
             InitializeComponent();
         }
 
-        public TextBox txtCampo2 = null;
+        FormFiglia ff = null;
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -38,7 +38,7 @@ namespace _04_Preparazione
 
         private void figliaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormFiglia ff = new FormFiglia(txtCampo1, ref txtCampo2);
+            ff = new FormFiglia(txtCampo1);
             ff.Text = "Caro amico ti scrivo";
             ff.Show();
             stlStato.Text = "Form figlia opened";
@@ -62,12 +62,9 @@ namespace _04_Preparazione
         {
             stlStato.Text = "Saved";
         }
-        private void btmInvia_Click(object sender, EventArgs e)
+        public void btmInvia_Click(object sender, EventArgs e)
         {
-            if (txtCampo2 != null)
-                txtCampo2.Text = txtCampo1.Text;
-            else
-                MessageBox.Show("Prima apri la form figlia");
+            ff.TxtValue = txtCampo1.Text;
         }
     }
 }

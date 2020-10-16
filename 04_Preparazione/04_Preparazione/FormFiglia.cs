@@ -17,18 +17,34 @@ namespace _04_Preparazione
             InitializeComponent();
         }
 
-        public TextBox txtCampo1;
 
-        public FormFiglia(TextBox txtC1, ref TextBox txtC2)
+        private string txtValue;
+        TextBox txtForm1;
+
+        public string TxtValue 
+        { 
+            get => txtValue;
+            set 
+            {
+                txtValue = value;
+                txtCampo2.Text = txtValue;
+            }
+        }
+
+        public FormFiglia(TextBox txt1)
         {
             InitializeComponent();
-            txtCampo1 = txtC1;
-            txtC2 = txtCampo2;
+            txtForm1 = txt1;
         }
 
         private void btmInvia_Click(object sender, EventArgs e)
         {
-            txtCampo1.Text = txtCampo2.Text;
+            txtForm1.Text = txtCampo2.Text;
+        }
+
+        internal void ChangeText(string text)
+        {
+            txtCampo2.Text = text;
         }
     }
 }
