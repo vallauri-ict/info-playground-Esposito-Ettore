@@ -1,3 +1,0 @@
-F1,Mana,Torino
-F2,Vaschetto,Cuneo
-F3,Servetti,Torino

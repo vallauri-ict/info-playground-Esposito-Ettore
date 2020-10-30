@@ -1,9 +1,0 @@
-C01,Racca,Luigi,Torino
-C11,Pelissero,Marco,Torino
-C13,Teleman,Bianca,Ceva
-C23,Velardi,Martina,Cuneo
-C25,Ghisolfi,Mario,Ceva
-C30,Racca,Luigi,Torino
-C34,Panero,Michela,Fossano
-C36,Barberis,Luisa,Fossano
-C40,Ciao,Buongioro,Cuneo
