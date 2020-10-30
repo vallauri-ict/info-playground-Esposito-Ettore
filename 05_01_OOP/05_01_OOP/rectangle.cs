@@ -9,13 +9,39 @@ namespace _05_01_OOP
 {
     class rectangle
     {
-        private int side1, side2;
+        private int _side1, _side2;
+        private int side1
+        {
+            get => _side1;
+            set
+            {
+                if (value > 0)
+                    _side1 = value;
+                else
+                    throw new Exception("Metti un lato adatto"); //manda in errore
+            }
+        }
+        private int side2
+        {
+            get => _side2;
+            set
+            {
+                if (value > 0)
+                    _side2 = value;
+                else
+                    throw new Exception("Metti un lato adatto");
+            }
+        }
         public Color colore;
 
-        public rectangle()
+        public rectangle() : this(1)
         {
-            side1 = 1;
-            side2 = 1;
+
+        }
+
+        public rectangle(int l) : this(l, l)
+        {
+
         }
 
         public rectangle(int b, int h)
