@@ -32,6 +32,8 @@
             this.txtNuovo = new System.Windows.Forms.TextBox();
             this.btmAggiungi = new System.Windows.Forms.Button();
             this.btmStampa = new System.Windows.Forms.Button();
+            this.dgvCoda = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCoda)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -70,17 +72,28 @@
             this.btmStampa.UseVisualStyleBackColor = true;
             this.btmStampa.Click += new System.EventHandler(this.btmStampa_Click);
             // 
+            // dgvCoda
+            // 
+            this.dgvCoda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCoda.Location = new System.Drawing.Point(12, 94);
+            this.dgvCoda.Name = "dgvCoda";
+            this.dgvCoda.Size = new System.Drawing.Size(198, 253);
+            this.dgvCoda.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(223, 101);
+            this.ClientSize = new System.Drawing.Size(223, 359);
+            this.Controls.Add(this.dgvCoda);
             this.Controls.Add(this.btmStampa);
             this.Controls.Add(this.btmAggiungi);
             this.Controls.Add(this.txtNuovo);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCoda)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,6 +105,7 @@
         private System.Windows.Forms.TextBox txtNuovo;
         private System.Windows.Forms.Button btmAggiungi;
         private System.Windows.Forms.Button btmStampa;
+        private System.Windows.Forms.DataGridView dgvCoda;
     }
 }
 
