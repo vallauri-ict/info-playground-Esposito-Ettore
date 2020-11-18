@@ -50,9 +50,14 @@ namespace _03_02_Liste
 
         private void btmAggiungiObj_Click(object sender, EventArgs e)
         {
-            Libri.AggiungiLibro(Convert.ToInt32(txtId.Text), txtTitolo.Text, txtAutore.Text);
-            foreach (TextBox txt in this.Controls.OfType<TextBox>())
-                txt.Text = "";
+            if(Libri.AggiungiLibro(Convert.ToInt32(txtId.Text), txtTitolo.Text, txtAutore.Text))
+            {
+                MessageBox.Show("Libro aggiunto");
+                foreach (TextBox txt in this.Controls.OfType<TextBox>())
+                    txt.Text = "";
+            }
+            else
+                MessageBox.Show("Un libro con quel codice esiste già");
         }
 
         private void VisualizzaObj_Click(object sender, EventArgs e)

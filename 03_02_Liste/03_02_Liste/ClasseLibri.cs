@@ -20,12 +20,20 @@ namespace _03_02_Liste
 
         }
 
-        public void AggiungiLibro(int id, string titolo, string autore)
+        public bool AggiungiLibro(int id, string titolo, string autore)
         {
-            Libro l;
-            l.Titolo = titolo;
-            l.Autore = autore;
-            listaLibri.Add(id, l);
+            try
+            {
+                Libro l;
+                l.Titolo = titolo;
+                l.Autore = autore;
+                listaLibri.Add(id, l);
+            }
+            catch(Exception)
+            {
+                return false;
+            }
+            return true;
         }
 
         public string VisualizzaLibri()
