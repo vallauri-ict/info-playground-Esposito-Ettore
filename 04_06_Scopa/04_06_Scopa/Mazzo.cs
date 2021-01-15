@@ -13,6 +13,7 @@ namespace _04_06_Scopa
 
         public Mazzo()
         {
+            Deck.RemoveRange(0, Deck.Count());
             for (int i = 1; i <= 10; i++)
             {
                 Deck.Add(new Carta("Bastoni", i));

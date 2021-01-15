@@ -214,7 +214,7 @@ namespace _04_06_Scopa
             this.Controls.Add(this.dgvPrese1);
             this.Controls.Add(this.dgvMano1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Scopa";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMano1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrese1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrese2)).EndInit();

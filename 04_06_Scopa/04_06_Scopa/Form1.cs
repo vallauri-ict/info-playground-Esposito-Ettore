@@ -86,10 +86,13 @@ namespace _04_06_Scopa
                             turno = turno == 1 ? 2 : 1;
                             cartaGiocata = null;
                             MessageBox.Show("Non puoi prendere carte");
-                            if (turno == 1)
-                                MessageBox.Show("Tunro di " + p1.Nome);
-                            else
-                                MessageBox.Show("Tunro di " + p2.Nome);
+                            if(!btmPlay.Visible)
+                            {
+                                if (turno == 1)
+                                    MessageBox.Show("Tunro di " + p1.Nome);
+                                else
+                                    MessageBox.Show("Tunro di " + p2.Nome);
+                            }
                         }
                     }
                     else
@@ -125,10 +128,13 @@ namespace _04_06_Scopa
                         Ripescata();
                         turno = turno == 1 ? 2 : 1;
                         cartaGiocata = null;
-                        if (turno == 1)
-                            MessageBox.Show("Tunro di " + p1.Nome);
-                        else
-                            MessageBox.Show("Tunro di " + p2.Nome);
+                        if (!btmPlay.Visible)
+                        {
+                            if (turno == 1)
+                                MessageBox.Show("Tunro di " + p1.Nome);
+                            else
+                                MessageBox.Show("Tunro di " + p2.Nome);
+                        }
                     }
                     else
                         MessageBox.Show("Devi scegliere una carta con lo stesso numero");
@@ -168,6 +174,7 @@ namespace _04_06_Scopa
                             MessageBox.Show("Partita finita\nHa vinto " + p1.Nome);
                         else
                             MessageBox.Show("Partita finita\nHa vinto " + p2.Nome);
+                        btmPlay.Visible = true;
                     }
                 }
         }
@@ -180,6 +187,7 @@ namespace _04_06_Scopa
             dgv.ColumnHeadersVisible = false;
             dgv.AllowUserToOrderColumns = false;
             dgv.AllowUserToResizeRows = false;
+            dgv.ReadOnly = true;
 
             int i = 0;
             foreach (Carta carta in carte)
