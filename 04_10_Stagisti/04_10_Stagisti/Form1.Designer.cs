@@ -49,11 +49,11 @@ namespace _04_10_Stagisti
             this.btmCerca = new System.Windows.Forms.Button();
             this.dgvStag = new System.Windows.Forms.DataGridView();
             this.btmElimina = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.txtPos = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtOre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStag)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -112,6 +112,7 @@ namespace _04_10_Stagisti
             this.btmCrea.TabIndex = 6;
             this.btmCrea.Text = "Crea stagista";
             this.btmCrea.UseVisualStyleBackColor = true;
+            this.btmCrea.Click += new System.EventHandler(this.btmCrea_Click);
             // 
             // label4
             // 
@@ -221,7 +222,7 @@ namespace _04_10_Stagisti
             // 
             this.txtOre.Location = new System.Drawing.Point(246, 85);
             this.txtOre.Maximum = new decimal(new int[] {
-            400,
+            1000,
             0,
             0,
             0});
@@ -237,9 +238,14 @@ namespace _04_10_Stagisti
             this.btmCerca.TabIndex = 19;
             this.btmCerca.Text = "Cerca azienda";
             this.btmCerca.UseVisualStyleBackColor = true;
+            this.btmCerca.Click += new System.EventHandler(this.btmCerca_Click);
             // 
             // dgvStag
             // 
+            this.dgvStag.AllowUserToAddRows = false;
+            this.dgvStag.AllowUserToDeleteRows = false;
+            this.dgvStag.AllowUserToResizeColumns = false;
+            this.dgvStag.AllowUserToResizeRows = false;
             this.dgvStag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStag.Location = new System.Drawing.Point(12, 230);
             this.dgvStag.Name = "dgvStag";
@@ -254,18 +260,19 @@ namespace _04_10_Stagisti
             this.btmElimina.TabIndex = 21;
             this.btmElimina.Text = "Elimina posizione";
             this.btmElimina.UseVisualStyleBackColor = true;
+            this.btmElimina.Click += new System.EventHandler(this.btmElimina_Click);
             // 
-            // numericUpDown1
+            // txtPos
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(246, 434);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.txtPos.Location = new System.Drawing.Point(246, 434);
+            this.txtPos.Maximum = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown1.TabIndex = 23;
+            this.txtPos.Name = "txtPos";
+            this.txtPos.Size = new System.Drawing.Size(100, 20);
+            this.txtPos.TabIndex = 23;
             // 
             // label5
             // 
@@ -281,7 +288,7 @@ namespace _04_10_Stagisti
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 467);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.txtPos);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btmElimina);
             this.Controls.Add(this.dgvStag);
@@ -307,7 +314,7 @@ namespace _04_10_Stagisti
             this.Text = "Gestione stage";
             ((System.ComponentModel.ISupportInitialize)(this.txtOre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStag)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -335,7 +342,7 @@ namespace _04_10_Stagisti
         private System.Windows.Forms.Button btmCerca;
         private System.Windows.Forms.DataGridView dgvStag;
         private System.Windows.Forms.Button btmElimina;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown txtPos;
         private System.Windows.Forms.Label label5;
     }
 }

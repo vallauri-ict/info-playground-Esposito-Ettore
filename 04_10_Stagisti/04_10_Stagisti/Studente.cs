@@ -19,40 +19,35 @@ namespace _04_10_Stagisti
         public char Classe
         {
             get => classe;
-            set
-            {
-
-            }
+            set => classe = Convert.ToChar(value);
         }
 
         public char Sezione
         {
-            get => Sezione;
-            set
-            {
-
-            }
+            get => sezione;
+            set => sezione = Convert.ToChar(value);
         }
 
         public string Specializzazione
         {
             get => specializzazione;
-            set
-            {
-
-            }
+            set => specializzazione = value;
         }
 
         #endregion
 
-        public Studente(string nome, string cognome, string citta) : base(nome, cognome, citta)
+        public Studente(string nome, string cognome, string citta, char classe, char sezione, string specializzazione) : base(nome, cognome, citta)
         {
-
+            Classe = classe;
+            Sezione = sezione;
+            Specializzazione = specializzazione;
+            progressivo++;
+            matricola = "A" + progressivo.ToString().PadLeft(5, '0');
         }
 
         public override string Visualizza()
         {
-            throw new NotImplementedException();
+            return matricola + " " + Nome + " " + Cognome + " " + Citta + " " + Classe + "^" + Sezione + " " + Specializzazione;
         }
     }
 }
