@@ -71,7 +71,18 @@ namespace _04_10_Stagisti
                 txtPos.Value = 0;
             }
             else
-                MessageBox.Show("Seleziona prima una posizione");
+            {
+                try
+                {
+                    elenco.cancella();
+                    txtPos.Maximum--;
+                    elenco.VisualizzaDGV(dgvStag);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
         }
     }
 }

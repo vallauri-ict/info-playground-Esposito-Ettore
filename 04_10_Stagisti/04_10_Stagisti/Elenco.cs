@@ -24,6 +24,7 @@ namespace _04_10_Stagisti
         public void VisualizzaDGV(DataGridView dgv)
         {
             dgv.RowHeadersVisible = false;
+            dgv.DataSource = null;
             dgv.DataSource = elenco;
             dgv.AutoResizeColumns();
         }
