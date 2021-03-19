@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_04_UsoControlloPersonalizzato", "06_04_UsoControlloPersonalizzato\06_04_UsoControlloPersonalizzato.csproj", "{58F4BB95-2AD0-4197-8A54-B2F188031AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58F4BB95-2AD0-4197-8A54-B2F188031AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F4BB95-2AD0-4197-8A54-B2F188031AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F4BB95-2AD0-4197-8A54-B2F188031AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F4BB95-2AD0-4197-8A54-B2F188031AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8AD806A-CF35-47A5-8927-92986831F5FE}
+	EndGlobalSection
+EndGlobal
